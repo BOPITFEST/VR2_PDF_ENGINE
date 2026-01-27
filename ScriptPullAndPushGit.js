@@ -1,7 +1,7 @@
 import { execSync } from "child_process";
 
 // ✅ Google Chat Webhook URL
-const CHAT_WEBHOOK_URL = "https://chat.googleapis.com/v1/spaces/AAQAW675rio/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=Km0aIuIjbwOno-Xxc7YyKmO6BzKXIiBe65zE8KE-2Uo";
+const CHAT_WEBHOOK_URL = "https://chat.googleapis.com/v1/spaces/AAAACpUvFA4/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=had1T28dUvoyeVGTPNVvWbLx2mzl1o6QFlHBzn9tMLA";
 
 // ✅ custom commit message from command line
 const commitMsg = process.argv[2] || "Auto-sync from Apps Script";
@@ -20,7 +20,7 @@ async function main() {
         console.log("💬 Sending message to Google Chat...");
 
         const chatMessage = {
-            text: `📢 *Engine_PDF_VR2 updated from Apps Script!*\n🕒 *Date and Time:* ${new Date().toLocaleString()}\n📝 *Commit Message:* ${commitMsg} \n ✅ Code synced and pushed to GitHub \n 🔗 *View Commit:* ${commitLink}`,
+            text: `📢 *Engine_PDF_VR2 updated from Apps Script!* \n *Date and Time:* ${new Date().toLocaleString()}\n *Commit Message:* ${commitMsg} \n ✅ Code synced and pushed to GitHub \n 🔗 *View Commit:* ${commitLink}`,
         };
 
         const res = await fetch(CHAT_WEBHOOK_URL, {
