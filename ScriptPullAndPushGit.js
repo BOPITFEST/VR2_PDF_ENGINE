@@ -5,6 +5,7 @@ const CHAT_WEBHOOK_URL = "https://chat.googleapis.com/v1/spaces/AAQAW675rio/mess
 
 // ✅ custom commit message from command line
 const commitMsg = process.argv[2] || "Auto-sync from Apps Script";
+const commitLink = process.argv[3] || "https://github.com/BOPITFEST/VR2_PDF_ENGINE";
 
 async function main() {
     try {
@@ -19,7 +20,7 @@ async function main() {
         console.log("💬 Sending message to Google Chat...");
 
         const chatMessage = {
-            text: `📢 Engine_PDF_VR2 updated from Apps Script!*\n🕒 ${new Date().toLocaleString()}\n📝 *Commit:* ${commitMsg}\n✅ Code synced and pushed to GitHub`,
+            text: `📢 *Engine_PDF_VR2 updated from Apps Script!*\n🕒 *Date and Time:* ${new Date().toLocaleString()}\n📝 *Commit Message:* ${commitMsg}\n✅ Code synced and pushed to GitHub \n 🔗 View Commit: ${commitLink}`,
         };
 
         const res = await fetch(CHAT_WEBHOOK_URL, {

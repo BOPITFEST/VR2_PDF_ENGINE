@@ -2,7 +2,7 @@ function testPdfGeneration_warranty_new() {
   const JSON_PARAMETER = {
     "DOC_template_url": "https://docs.google.com/document/d/1jh8_hc8VmDR7OCXXsT_Q7X8lvU-RVYK9fHwTQXvWC50/edit?usp=sharing",
     "DOC_folder_save_url": "https://drive.google.com/drive/folders/1CXpsg5WnZMcDO2W_MGMjgBLek7YozHdn?usp=sharing",
-    "DOC_file_save_name": "042-3WE-67-AKAbyGAEWARRANTY ",
+    "DOC_file_save_name": "042-3WE-67-AKA-WARRANTY",
     "Google_generate": 1,
     "Cloudinary_generate": 1,
     "Cloudinary_name": "2e291t2h350x1a2g1u2e201e1k05"
