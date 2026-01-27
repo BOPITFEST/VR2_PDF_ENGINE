@@ -20,7 +20,7 @@ async function main() {
         console.log("💬 Sending message to Google Chat...");
 
         const chatMessage = {
-            text: `📢 *Engine_PDF_VR2 updated from Apps Script!*\n🕒 *Date and Time:* ${new Date().toLocaleString()}\n📝 *Commit Message:* ${commitMsg} \n 🔗 View Commit: ${commitLink}\n ✅ Code synced and pushed to GitHub`,
+            text: `📢 *Engine_PDF_VR2 updated from Apps Script!*\n🕒 *Date and Time:* ${new Date().toLocaleString()}\n📝 *Commit Message:* ${commitMsg} \n ✅ Code synced and pushed to GitHub \n 🔗 *View Commit:* ${commitLink}`,
         };
 
         const res = await fetch(CHAT_WEBHOOK_URL, {
