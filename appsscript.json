@@ -1,0 +1,15 @@
+{
+  "timeZone": "Asia/Kolkata",
+  "dependencies": {
+    "libraries": [
+      {
+        "userSymbol": "VR2_DEV_Cloudnary",
+        "version": "0",
+        "libraryId": "1867PK4_39ljvgMKWeW6GwRXaC9vXiQ9Y36jFfDmmfY6i1LzyWxQT3WPr",
+        "developmentMode": true
+      }
+    ]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8"
+}
