@@ -1,5 +1,4 @@
 import { execSync } from "child_process";
-import fetch from "node-fetch";
 
 // ✅ Google Chat Webhook URL
 const CHAT_WEBHOOK_URL = "https://chat.googleapis.com/v1/spaces/AAQAW675rio/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=Km0aIuIjbwOno-Xxc7YyKmO6BzKXIiBe65zE8KE-2Uo";
