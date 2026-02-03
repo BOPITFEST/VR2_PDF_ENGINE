@@ -7,6 +7,12 @@
         "version": "0",
         "libraryId": "1867PK4_39ljvgMKWeW6GwRXaC9vXiQ9Y36jFfDmmfY6i1LzyWxQT3WPr",
         "developmentMode": true
+      },
+      {
+        "userSymbol": "VR2_MYSQL_v20",
+        "version": "0",
+        "libraryId": "1OclIrkgmoDpv9wZy8xLMYUTwjKFerZ5SqjSBbDhwJBKfq9tdgT2scJDa",
+        "developmentMode": true
       }
     ]
   },
